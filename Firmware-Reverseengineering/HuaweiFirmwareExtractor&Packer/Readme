@@ -12,16 +12,16 @@ On Windows OS:
 • download Huawei Firmware Editor Tool (HWFW_GUI.exe):
 • Also download and install tool HxD Hex Editor on windows
 • Download/copy the orginalhuaweifirmware.bin firmware file here in windows machine
-• Execute HWFW_GUI.exe -> File-> Open->Originalfirmware.bin ->clickon “Contains Project Information” in Left pain window->
+• Execute HWFW_GUI.exe -> File-> Open->originalhuaweifirmware.bin ->clickon “Contains Project Information” in Left pain window->
   click on flash:rootfs in right window pain->Right click on flash:rootfs in right window pain->Edit Item->Export->
   save at ur desired location with any name for e.g rootfsoriginalhuaweifirmware->save 
   (This is how we extracted the rootfs part with its header from original firmware by using tool HWFW_GUI.exe)
-• Now shift this extracted rootfsoriginalfirmware file to Linux machine
+• Now shift this extracted rootfsoriginalhuaweifirmware file to Linux machine
 
 On Linux Machine:
 • binwalk rootfsoriginalhuaweifirmware
-• binwalk -e rootfsoriginalfirmware (Extracted the squashfs file system from the file)
-• cd _rootfsoriginalfirmware.extracted/squashfs-root
+• binwalk -e rootfsoriginalhuaweifirmware (Extracted the squashfs file system from the file)
+• cd _rootfsoriginalhuaweifirmware.extracted/squashfs-root
 • Now you may analyze the extracted file system of huawei firmware to find any vulnerability or to do any modification
 • Now pack the file system after modification
   mksquashfs _rootfsoriginalhuaweifirmware.extracted/squashfs-root rootfs_new_of_originalhuaweifirmware -comp xz -b 131072 
