@@ -1,7 +1,6 @@
 This Sample Program contains logic to capture WiFi Passwords on Windows System.
 
-Both "Malware_WiFiPasswordCapture_sendreport1.py" and "Malware_WiFiPasswordCapture_sendreport2.py" are same except that the file Malware_WiFiPasswordCapture_sendreport1.py" 
-also contains comments for the explanation of the code.
+Both "Malware_WiFiPasswordCapture_sendreport1.py" and "Malware_WiFiPasswordCapture_sendreport2.py" are same except that the file Malware_WiFiPasswordCapture_sendreport1.py" also contains comments for the explanation of the code.
 
 Works in Windows Environment.
 
