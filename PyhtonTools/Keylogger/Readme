@@ -1,0 +1,10 @@
+Sample keylogger can be used to record the keys on your computer and send email to specified email in keyloggermaincall.py
+
+Works in Windows Environment.
+
+Keylogger.py contains main logic and keyloggermaincall.py import the file keylogger.py and starts the execution.
+We may also write complete code in one file and make its executable and can run on any target machine.
+
+Its just for educational purpose, you may customised it further as per your requirement.
+
+Disclaimer: Dilpreet Singh Bajwa will not be responsible in any way for any loss or misuse of any such tool or script in the account as it is for only educational purpose.
