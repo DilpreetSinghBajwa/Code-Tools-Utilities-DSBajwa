@@ -1,0 +1,12 @@
+Sample Password Crackers have the capability to crack or resolve password after providing corresponding hash by the user. 
+
+The "PasswordCrackerBasedonBruteForce.py" only implemented logic based on Brute Force or possible combinations we can try.
+
+The "PasswordCrackerBasedonBruteForce+Dictionary.py" have implemented the logic of Brute Force as well as Dictionary attack where in Dictionary Attack logic you have to 
+give a list or file of commonly used or customised passwords to the program for cracking the password. You may find such list of passwords online or many are also available in kali linux.
+
+Works in Windows Environment.
+
+Its just for educational purpose, you may customised it further as per your requirement.
+
+Disclaimer: Dilpreet Singh Bajwa will not be responsible in any way for any loss or misuse of any such tool or script in the account as it is for only educational purpose.
